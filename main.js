@@ -37,15 +37,15 @@ client.on('message', message => {
       client.commands.get('rie').execute(message, args);
        }
 
-      
-
       else if(command === 'k1'){
        client.commands.get('k1').execute(message, args);
         }
 
        else if(command === 'kira'){
          client.commands.get('kira').execute(message, args);
-          }
+          }  
+    
+    
 
      else if(command === 'p'){
         client.commands.get('p').execute(message, args);
@@ -59,4 +59,4 @@ client.on('message', message => {
 });
 
 
-client.login("ODMwMDYzNzg3MzIyNTA3MzA1.YHBPJA.V1-4EIWzINnRFsOUxdg4EIVkaWw");
+client.login("ODMwMDYzNzg3MzIyNTA3MzA1.YHBPJA.V1-4EIWzINnRFsOUxdg4EIVkaWw"); //ur token 
